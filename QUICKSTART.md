@@ -179,3 +179,20 @@ See `README.md` for comprehensive documentation
 ---
 
 **Ready to Go!** 🎉 Your Leave Management System is now operational.
+
+
+
+-- Insert 5 users (1 Admin + 4 Employees)
+INSERT INTO users (username, email, password_hash, first_name, last_name, role_id, employee_id, phone, status) VALUES
+
+-- Admin User (Password: Admin@123)
+('admin', 'admin@company.com', '$2y$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lm', 'Admin', 'User', 1, 'ADM001', '555-0001', 'active'),
+
+-- Employee Users (Password: Employee@123 for all)
+('john.doe', 'john.doe@company.com', '$2y$12$gSvqqUNVlXP2tfVFaWK1Be1DlH.PKZbv5H8KKzB1KQrVzPiKd.8Xa', 'John', 'Doe', 2, 'EMP001', '555-0002', 'active'),
+
+('jane.smith', 'jane.smith@company.com', '$2y$12$gSvqqUNVlXP2tfVFaWK1Be1DlH.PKZbv5H8KKzB1KQrVzPiKd.8Xa', 'Jane', 'Smith', 2, 'EMP002', '555-0003', 'active'),
+
+('michael.johnson', 'michael.johnson@company.com', '$2y$12$gSvqqUNVlXP2tfVFaWK1Be1DlH.PKZbv5H8KKzB1KQrVzPiKd.8Xa', 'Michael', 'Johnson', 2, 'EMP003', '555-0004', 'active'),
+
+('sarah.williams', 'sarah.williams@company.com', '$2y$12$gSvqqUNVlXP2tfVFaWK1Be1DlH.PKZbv5H8KKzB1KQrVzPiKd.8Xa', 'Sarah', 'Williams', 2, 'EMP004', '555-0005', 'active');

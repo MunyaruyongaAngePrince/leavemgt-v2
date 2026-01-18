@@ -1,9 +1,4 @@
--- Leave Management System Database Schema
--- Created: 2026-01-18
 
--- ============================================
--- ROLES TABLE
--- ============================================
 CREATE TABLE IF NOT EXISTS roles (
     id INT PRIMARY KEY AUTO_INCREMENT,
     role_name VARCHAR(50) UNIQUE NOT NULL,

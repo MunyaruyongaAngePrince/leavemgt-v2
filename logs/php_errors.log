@@ -1,0 +1,2 @@
+[18-Jan-2026 18:42:08 UTC] PHP Warning:  The magic method Database::__wakeup() must have public visibility in C:\xampp1\htdocs\leavemgt\includes\Database.php on line 239
+[18-Jan-2026 18:42:24 UTC] PHP Warning:  The magic method Database::__wakeup() must have public visibility in C:\xampp1\htdocs\leavemgt\includes\Database.php on line 239
